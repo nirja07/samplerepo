@@ -41,7 +41,7 @@ import Home from "./components/Home";
 import Courses from "./components/Courses";
 import About from "./components/About";
 import Contact from "./components/Contact";
-
+import Services from "./components/Services";
 function App() {
   return (
     <BrowserRouter>
@@ -53,6 +53,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </div>
 
